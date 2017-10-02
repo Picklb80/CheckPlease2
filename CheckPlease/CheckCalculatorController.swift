@@ -14,21 +14,17 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var UITextBoxCheckAmount: UITextField!
     @IBOutlet weak var UITextBoxTip: UITextField!
     @IBOutlet weak var UITextBoxTotal: UITextField!
-    
-    
     @IBAction func UIButtonTranscribeCheck(_ sender: Any) {
-        let name:String = (UITextBoxResturant.text!)
         let check:Double = Double(UITextBoxCheckAmount.text!)!
         let tip:Double = Double(UITextBoxTip.text!)!
-        let tipAmount:Double = (tip / 100) * check
-        let total:String = String(format: "%.02f" , (check + tipAmount))
+        let fullAmount:Double = (tip / 100) * check
+        let total:String = String(format: "%.02f" , (check + fullAmount))
         UITextBoxTotal.text = String("$\(total)")
-        let bill:String = (UITextBoxCheckAmount.text!)
-        let rTip:String = (UITextBoxTip.text!)
-        let rTotal:String = total
+        
         //var a:[String] = [name,bill,rTip,rTotal]
         
     }
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

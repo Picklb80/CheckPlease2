@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D83908A1F82EF1500A3A8A8 /* Checks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8390891F82EF1500A3A8A8 /* Checks.swift */; };
+		3D83908C1F82F3A100A3A8A8 /* CheckCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D83908B1F82F3A100A3A8A8 /* CheckCollection.swift */; };
 		3DA6383D1F7E9FCD00B04CAC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6383C1F7E9FCD00B04CAC /* ThirdViewController.swift */; };
 		3DFDC0C31F7D5A0F00CD4818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDC0C21F7D5A0F00CD4818 /* AppDelegate.swift */; };
 		3DFDC0C51F7D5A0F00CD4818 /* CheckCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDC0C41F7D5A0F00CD4818 /* CheckCalculatorController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D8390891F82EF1500A3A8A8 /* Checks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checks.swift; sourceTree = "<group>"; };
+		3D83908B1F82F3A100A3A8A8 /* CheckCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCollection.swift; sourceTree = "<group>"; };
 		3DA6383C1F7E9FCD00B04CAC /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		3DFDC0BF1F7D5A0F00CD4818 /* CheckPlease.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckPlease.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFDC0C21F7D5A0F00CD4818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 			children = (
 				3DFDC0C21F7D5A0F00CD4818 /* AppDelegate.swift */,
 				3DFDC0C41F7D5A0F00CD4818 /* CheckCalculatorController.swift */,
+				3D8390891F82EF1500A3A8A8 /* Checks.swift */,
+				3D83908B1F82F3A100A3A8A8 /* CheckCollection.swift */,
 				3DFDC0C61F7D5A0F00CD4818 /* CheckHistoryController.swift */,
 				3DA6383C1F7E9FCD00B04CAC /* ThirdViewController.swift */,
 				3DFDC0C81F7D5A0F00CD4818 /* Main.storyboard */,
@@ -263,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DFDC0C71F7D5A0F00CD4818 /* CheckHistoryController.swift in Sources */,
+				3D83908A1F82EF1500A3A8A8 /* Checks.swift in Sources */,
+				3D83908C1F82F3A100A3A8A8 /* CheckCollection.swift in Sources */,
 				3DA6383D1F7E9FCD00B04CAC /* ThirdViewController.swift in Sources */,
 				3DFDC0C31F7D5A0F00CD4818 /* AppDelegate.swift in Sources */,
 				3DFDC0C51F7D5A0F00CD4818 /* CheckCalculatorController.swift in Sources */,

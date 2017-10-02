@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -148,12 +148,11 @@
                         <outlet property="UITextBoxResturant" destination="RUw-Ft-2eE" id="x2X-OW-01P"/>
                         <outlet property="UITextBoxTip" destination="SOQ-rX-d7K" id="1S8-QA-tgS"/>
                         <outlet property="UITextBoxTotal" destination="ug7-tp-sPC" id="4PJ-6X-sbS"/>
-                        <segue destination="8rJ-Kc-sve" kind="show" id="FNn-H6-u3H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.27536231884062" y="-321.19565217391306"/>
+            <point key="canvasLocation" x="564" y="-525"/>
         </scene>
         <!--CheckStatsViewController-->
         <scene sceneID="kpf-hS-35n">
@@ -358,7 +357,4 @@
         <image name="icons8-Order History-25" width="25" height="25"/>
         <image name="icons8-Statistics-26" width="26" height="26"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="lzU-1b-eKA"/>
-    </inferredMetricsTieBreakers>
 </document>
