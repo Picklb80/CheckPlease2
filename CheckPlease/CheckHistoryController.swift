@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  CheckPlease
 //
 //  Created by Picklo,Blake H on 9/28/17.
@@ -8,8 +8,15 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    //var checks:[check] = []
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        
+    }
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
