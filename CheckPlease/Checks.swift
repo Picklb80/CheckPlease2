@@ -13,12 +13,12 @@ class check {
     static var fullAmount:Double = 0
     static var tip:Double = 0
     static var total:Double = 0
-    /*
-    init(name:String, fullAmount:String, tip:String){
-        self.name = name
-        self.fullAmount = fullAmount
-        self.tip = tip
-        total = (tip / 100) * fullAmount
+    
+    init(name:String, fullAmount:Double, tip:Double){
+        check.name = name
+        check.fullAmount = fullAmount
+        check.tip = tip
+        check.total = (tip / 100) * fullAmount
     }
-    */
+    
 }

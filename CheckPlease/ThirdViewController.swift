@@ -15,6 +15,7 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var UITextFieldMean: UITextField!
     @IBOutlet weak var UITextFieldVariance: UITextField!
     override func viewDidLoad() {
+      // UITextFieldMin.text = minTotal(check.total,min)
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -26,14 +27,6 @@ class ThirdViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+  
 
 }

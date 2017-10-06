@@ -15,6 +15,7 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var UITextBoxTip: UITextField!
     @IBOutlet weak var UITextBoxTotal: UITextField!
     @IBAction func UIButtonTranscribeCheck(_ sender: Any) {
+        UITextBoxTotal.text = ""
         let check:Double = Double(UITextBoxCheckAmount.text!)!
         let tip:Double = Double(UITextBoxTip.text!)!
         let fullAmount:Double = (tip / 100) * check
