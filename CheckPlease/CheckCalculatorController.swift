@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class CheckCalculatorViewController: UIViewController {
 
     @IBOutlet weak var UITextBoxResturant: UITextField!
     @IBOutlet weak var UITextBoxCheckAmount: UITextField!

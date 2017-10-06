@@ -7,7 +7,7 @@
 //
 
 import UIKit
-/*
+
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     //var checks:[check] = []
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
@@ -25,4 +25,4 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
 }
 
-*/
+
