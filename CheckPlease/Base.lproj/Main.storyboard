@@ -17,7 +17,7 @@
         <!--Check Calculator-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="CheckCalculatorViewController" customModule="CheckPlease" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -60,7 +60,7 @@
                                 </constraints>
                                 <state key="normal" title="Transcribe Check"/>
                                 <connections>
-                                    <action selector="UIButtonTranscribeCheck:" destination="9pv-A4-QxB" eventType="touchUpInside" id="qK7-bh-6ch"/>
+                                    <action selector="UIButtonTranscribeCheck:" destination="9pv-A4-QxB" eventType="touchUpInside" id="SFi-Sf-2G7"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RUw-Ft-2eE">
