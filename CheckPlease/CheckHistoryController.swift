@@ -8,10 +8,18 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    //var checks:[check] = []
-    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
-   
+class CheckHistoryViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    var checks:[String] = ["1", "2"]
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return(checks.count)
+    }
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
+        cell.textLabel?.text = checks[indexPath.row]
+        
+        return(cell)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

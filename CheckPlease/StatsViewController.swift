@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class StatsViewController: UIViewController {
 
     @IBOutlet weak var UITextFieldMin: UITextField!
     @IBOutlet weak var UITextFieldMax: UITextField!
